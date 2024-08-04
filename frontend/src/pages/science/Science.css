@@ -1,0 +1,78 @@
+.page-container {
+    direction: rtl;
+    /* Ensure the text direction is right-to-left */
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header {
+    background-color: #e1f5fe;
+    color: black;
+    /* Light blue background */
+}
+
+.instructions {
+    background-color: #e0f7fa;
+    color: black;
+    /* Light cyan background */
+}
+
+.experiment {
+    background-color: #bbdefb;
+    color: black;
+}
+
+.warning {
+    background-color: #ffcdd2;
+    color: black;
+    /* Light red background */
+}
+
+h2 {
+    color: #0277bd;
+    /* Dark blue text color */
+}
+
+p,
+ol {
+    margin: 10px 0;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+.page-container {
+    direction: rtl; /* Ensure the text direction is right-to-left */
+    padding: 20px;
+  }
+  
+  h1 {
+    color: red;
+    text-align: center;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-content {
+    margin-bottom: 20px;
+  }
+  
+
+li {
+    direction: rtl;
+    text-align: right;
+}

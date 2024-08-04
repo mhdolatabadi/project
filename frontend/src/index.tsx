@@ -3,13 +3,34 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ThemeProvider } from '@emotion/react';
+import { createTheme } from '@mui/material';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#e0e0e0'
+    },
+    text: {
+      primary: '#e0e0e0',
+    },
+    background: {
+      paper: '#2c3e50'
+    },
+  },
+  typography: {
+    fontFamily: 'inherit'
+  },
+})
 root.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
   </React.StrictMode>
 );
 
